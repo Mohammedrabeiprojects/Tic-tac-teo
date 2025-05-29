@@ -1,0 +1,49 @@
+body{
+    background:linear-gradient(to right,red,blue);
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    min-width:450px;
+}
+p{
+    width: 450px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height:3rem;
+    font-size: 2.7rem;
+    border-radius: 10px;
+}
+.b{
+    width: 150px;
+    color: white;
+    text-align: center;
+    height:150px;
+    font-size: 2.7rem;
+    border-radius: 10px;
+    min-width:150px;
+    min-height: 150px;
+    background-color: white;
+}
+.ret{
+    width: 150px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.ret:active{
+    background-color: red;
+}
+button:hover{
+    box-shadow:10px 10px 10px rgba(0,0,0,0.3);
+}
+

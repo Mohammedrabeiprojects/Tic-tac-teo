@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <p id="gameheader">
+        X to play 
+   </p>
+    <div class="box">
+        <div id="rows" class="rows">
+        <button class="b" id="b00" onclick="clickbtn(0,0)">.</button>
+        <button class="b" id="b01" onclick="clickbtn(0,1)">.</button>
+        <button class="b" id="b02" onclick="clickbtn(0,2)">.</button>
+        </div>
+        <div id="rows" class="rows">
+        </div>
+        <button class="b" id="b10" onclick="clickbtn(1,0)">.</button>
+        <button class="b" id="b11" onclick="clickbtn(1,1)">.</button>
+        <button class="b" id="b12" onclick="clickbtn(1,2)">.</button>
+         <div id="rows" class="rows">
+        <button class="b" id="b20" onclick="clickbtn(2,0)">.</button>
+        <button class="b" id="b21" onclick="clickbtn(2,1)">.</button>
+        <button class="b" id="b22" onclick="clickbtn(2,2)">.</button>
+        </div>
+    </div>
+    <button class="ret" id="res" onclick="reset()">restart</button>
+</body>
+</html>
